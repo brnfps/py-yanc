@@ -1,0 +1,61 @@
+device:
+  device_type: cisco_ios_telnet
+  host: 192.168.0.33
+  port: 32773
+  username: admin
+  password: admin
+  secret: Timao@1910
+  verbose: True
+  session_log: leaf_3.txt
+
+hostname: leaf_3
+
+interfaces:
+  - interface: Loopback0
+    description: Management Interface
+    ip_addr: 100.65.254.3
+    netmask: 255.255.255.255
+  - interface: Loopback1
+    description: server_01
+    ip_addr: 100.96.3.1
+    netmask: 255.255.255.255
+  - interface: Loopback2
+    description: server_02
+    ip_addr: 100.96.3.2
+    netmask: 255.255.255.255
+  - interface: Loopback3
+    description: server_03
+    ip_addr: 100.96.3.3
+    netmask: 255.255.255.255
+  - interface: Loopback4
+    description: server_04
+    ip_addr: 100.96.3.4
+    netmask: 255.255.255.255
+  - interface: GigabitEthernet0/11
+    description: Uplink Interface
+    ip_addr: 198.18.0.5
+    netmask: 255.255.255.254
+    shut: false
+  - interface: GigabitEthernet0/10
+    description: Uplink Interface
+    ip_addr: 198.19.0.5
+    netmask: 255.255.255.254
+    shut: false
+
+routing:
+  bgp:
+    asn: 65003
+    router_id: 100.65.254.3
+    ecmp: 4
+    networks:
+      - network: 100.65.254.3
+        mask: 255.255.255.255
+      - network: 100.96.3.0
+        mask: 255.255.255.0
+    neighbors:
+      - ip: 198.18.0.4
+        remote_as: 65000
+        description: spine_1
+      - ip: 198.19.0.4
+        remote_as: 65000
+        description: spine_2

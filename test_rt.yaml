@@ -1,0 +1,82 @@
+hostname: spine_1
+
+interfaces:
+  - interface: Loopback0
+    description: Management Interface
+    ip_addr: 100.65.255.1
+    netmask: 255.255.255.255
+  - interface: GigabitEthernet1
+    description: Uplink Interface
+    ip_addr: 198.18.0.0
+    netmask: 255.255.255.254
+    shut: false
+  - interface: GigabitEthernet2
+    description: Uplink Interface
+    ip_addr: 198.18.0.2
+    netmask: 255.255.255.254
+    shut: false
+  - interface: GigabitEthernet3
+    description: Uplink Interface
+    ip_addr: 198.18.0.4
+    netmask: 255.255.255.254
+    shut: false    
+  - interface: GigabitEthernet4
+    description: Uplink Interface
+    ip_addr: 198.18.0.6
+    netmask: 255.255.255.254
+    shut: false
+  - interface: GigabitEthernet5
+    description: Uplink Interface
+    ip_addr: 198.18.0.8
+    netmask: 255.255.255.254
+    shut: false
+  - interface: GigabitEthernet6
+    description: Uplink Interface
+    ip_addr: 198.18.0.10
+    netmask: 255.255.255.254
+    shut: false
+  - interface: GigabitEthernet7
+    description: Uplink Interface
+    ip_addr: 198.18.0.12
+    netmask: 255.255.255.254
+    shut: false
+  - interface: GigabitEthernet8
+    description: Uplink Interface
+    ip_addr: 198.18.0.24
+    netmask: 255.255.255.254
+    shut: false
+
+routing:
+  - protocol: bgp
+    asn: 65000
+    router_id: 100.65.255.1
+    networks:
+      - network: 198.18.0.0
+        mask: 255.255.0.0
+      - network: 100.65.255.1
+        mask: 255.255.255.255
+    neighbors:
+      - ip: 198.18.0.1
+        remote_as: 65001
+        description: Peer to ISP
+      - ip: 198.18.0.3
+        remote_as: 65001
+        description: Peer to ISP
+      - ip: 198.18.0.5
+        remote_as: 65001
+        description: Peer to ISP
+      - ip: 198.18.0.7
+        remote_as: 65001
+        description: Peer to ISP
+      - ip: 198.18.0.9
+        remote_as: 65001
+        description: Peer to ISP
+      - ip: 198.18.0.11
+        remote_as: 65001
+        description: Peer to ISP
+      - ip: 198.18.0.13
+        remote_as: 65001
+        description: Peer to ISP
+      - ip: 198.18.0.15
+        remote_as: 65001
+        description: Peer to ISP

@@ -1,0 +1,31 @@
+hostname {{ hostname }}
+
+
+{% for each_interface in interfaces %}
+interface {{ each_interface["interface"] }} 
+ description {{ each_interface["description"] }}
+ ip address {{ each_interface["ip_addr"] }} {{ each_interface["netmask"] }}
+ {% if each_interface["shut"] == false %}
+ no shutdown
+ {% endif %}
+{% endfor %}
+
+
+{% if routing["bgp"] %}
+router bgp {{ routing["bgp"]["asn"] }}
+bgp router-id {{ routing["bgp"]["router_id"] }}
+{% if routing["bgp"]["ecmp"] %}
+maximum-paths {{ routing["bgp"]["ecmp"] }}
+{% endif %}
+{% if routing["bgp"]["neighbors"] %}
+{% for neighbor in routing["bgp"]["neighbors"] %}
+neighbor {{ neighbor["ip"] }} remote-as {{ neighbor["remote_as"] }}
+{% endfor %}
+{% endif %}
+{% if routing["bgp"]["networks"] %}
+{% for each_network in routing["bgp"]["networks"] %}
+network {{ each_network["network"] }} mask {{ each_network["mask"] }}
+{% endfor %}
+{% endif %}
+{% endif %}
+

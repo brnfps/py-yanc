@@ -1,0 +1,40 @@
+hostname: test_host
+
+interfaces:
+  - name: Loopback0
+    description: Management Interface
+    ip_addr: 1.1.1.1
+    netmask: 255.255.255.255
+  - name: GigabitEthernet0/0
+    description: Uplink Interface
+    ip_addr: 100.64.128.2
+    netmask: 255.255.255.252
+    duplex: full
+    speed: 1000
+    shut: false
+
+
+routing:
+  - protocol: ospf
+    process_id: 1
+    networks:
+      - network:
+  - protocol: bgp
+    asn: 65001
+    router_id: 1.1.1.1
+    ecmp: 4
+    networks:
+      - network: 100.64.128.1
+        mask: 255.255.255.255
+      - network: 100.70.255.1
+        mask: 255.255.255.255
+    neighbors:
+      - ip: 2.2.2.2
+        remote_as: 65002
+        description: Peer to ISP
+        group: external
+  - protocol: static
+    routes:
+      - destination_ip: 2.2.2.2
+        destination_mask: 255.255.255.255
+        next_hop: 100.64.128.1
