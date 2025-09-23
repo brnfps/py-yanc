@@ -1,0 +1,2950 @@
+DEBUG:netmiko:read_channel: ]0;leaf_1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv
+DEBUG:netmiko:read_channel:  Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+leaf_1>
+leaf_1>
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:write_channel: b'terminal width 511\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_1>
+leaf_1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: t
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: erminal width 511
+l
+DEBUG:netmiko:Pattern found: (terminal width 511) 
+leaf_1>
+leaf_1>terminal width 511
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_1>
+lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_1>terminal len
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: gth 0
+leaf_1>
+leaf_
+DEBUG:netmiko:Pattern found: (terminal\ length\ 0) 
+leaf_1>
+leaf_1>terminal length 0
+DEBUG:netmiko:
+leaf_1>
+leaf_1>terminal length 0
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 1>
+DEBUG:netmiko:Pattern found: ((?:\#|>)) 1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is 1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_1>
+leaf_
+DEBUG:netmiko:read_channel: 1>
+leaf_1>
+lea
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: f_1>
+leaf_1>
+leaf_1
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: >
+leaf_1>
+leaf_1>
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is leaf_
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1>
+leaf_1>
+DEBUG:netmiko:Pattern found: ([>#]) 
+
+leaf_1>
+DEBUG:netmiko:write_channel: b'exit\r\n'
+DEBUG:netmiko:read_channel: ]0;leaf_1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+******************************************************
+DEBUG:netmiko:read_channel: ********************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authoriz
+DEBUG:netmiko:read_channel: ed by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+leaf_1>
+leaf_1>
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:write_channel: b'terminal width 511\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_1>
+leaf_1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: t
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: erminal width 511
+
+DEBUG:netmiko:Pattern found: (terminal width 511) 
+leaf_1>
+leaf_1>terminal width 511
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1>
+lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_1>terminal lengt
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: h 0
+leaf_1>
+leaf
+DEBUG:netmiko:Pattern found: (terminal\ length\ 0) 
+
+leaf_1>
+leaf_1>terminal length 0
+DEBUG:netmiko:
+
+leaf_1>
+leaf_1>terminal length 0
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: _1>
+DEBUG:netmiko:Pattern found: ((?:\#|>)) _1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is _1>
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1>
+leaf_1>
+leaf_1>
+leaf_1>
+DEBUG:netmiko:Pattern found: (_1.*) 
+
+leaf_1>
+DEBUG:netmiko:write_channel: b'enable\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: e
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nable
+leaf_1#
+lea
+DEBUG:netmiko:Pattern found: (enable) 
+leaf_1>
+leaf_1>
+leaf_1>enable
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1|ssword)) 
+leaf_1
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_1#
+DEBUG:netmiko:Pattern found: (_1.*) #
+leaf_1#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1#
+leaf_1#
+leaf_1#
+leaf_1#
+DEBUG:netmiko:Pattern found: ([>#]) 
+
+leaf_1#
+DEBUG:netmiko:write_channel: b'configure terminal\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: c
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: onfigure terminal
+
+DEBUG:netmiko:Pattern found: (configure\ terminal) 
+leaf_1#
+leaf_1#
+leaf_1#configure terminal
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Enter configuration comm
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ands, one per line
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: .  End with CNTL/Z
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: .
+leaf_1(config)#
+DEBUG:netmiko:Pattern found: (_1.*) 
+
+Enter configuration commands, one per line.  End with CNTL/Z.
+leaf_1(config)#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1(confi
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: g)#
+leaf_1(conf
+DEBUG:netmiko:Pattern found: ([>#]) 
+leaf_1(config)#
+DEBUG:netmiko:write_channel: b'no ip domain-lookup\r\n'
+DEBUG:netmiko:read_channel: ig)#
+leaf_1(config)#no ip domain-lookup
+leaf_1(config)#
+le
+DEBUG:netmiko:read_channel: af_1(config)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'no logging console\r\n'
+DEBUG:netmiko:read_channel: no logging console
+leaf_1(config)#
+leaf_1(conf
+DEBUG:netmiko:read_channel: ig)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'hostname leaf_1\r\n'
+DEBUG:netmiko:read_channel: hostname leaf_1
+leaf_1(config)#
+leaf_1(conf
+DEBUG:netmiko:read_channel: ig)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1(config)#
+leaf_1(
+DEBUG:netmiko:Pattern found: ([>#]) 
+
+leaf_1(config)#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: config
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: )#
+leaf_1(confi
+DEBUG:netmiko:Pattern found: ([>#]) 
+leaf_1(config)#
+DEBUG:netmiko:write_channel: b'end\r\n'
+DEBUG:netmiko:read_channel: g)#
+leaf_1(conf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig)#end
+leaf_1#
+DEBUG:netmiko:Pattern found: (end) 
+leaf_1(config)#
+leaf_1(config)#end
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: (#.*) 
+leaf_1#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1#
+DEBUG:netmiko:Pattern found: ([>#]) 
+leaf_1#
+DEBUG:netmiko:exit_config_mode: 
+leaf_1(config)#
+leaf_1(config)#end
+leaf_1#
+DEBUG:netmiko:write_channel: b'exit\r\n'
+DEBUG:netmiko:read_channel: ]0;leaf_1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+DEBUG:netmiko:read_channel: 
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+leaf_1>
+leaf_1>
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:write_channel: b'terminal width 511\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_1>
+leaf_1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: t
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: erminal width 511
+
+DEBUG:netmiko:Pattern found: (terminal width 511) 
+leaf_1>
+leaf_1>terminal width 511
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1>
+lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_1>terminal lengt
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: h 0
+leaf_1>
+leaf
+DEBUG:netmiko:Pattern found: (terminal\ length\ 0) 
+
+leaf_1>
+leaf_1>terminal length 0
+DEBUG:netmiko:
+
+leaf_1>
+leaf_1>terminal length 0
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: _1>
+DEBUG:netmiko:Pattern found: ((?:\#|>)) _1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is _1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_1>
+leaf_1>
+leaf_1>
+leaf_1>
+leaf_1>
+leaf_1>
+leaf_1>
+leaf_1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is leaf_1>
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1>
+leaf_1>
+DEBUG:netmiko:Pattern found: (_1.*) 
+
+leaf_1>
+DEBUG:netmiko:write_channel: b'enable\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: e
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nable
+leaf_1#
+le
+DEBUG:netmiko:Pattern found: (enable) 
+leaf_1>enable
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1|ssword)) 
+leaf_1
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: af_1#
+DEBUG:netmiko:Pattern found: (_1.*) #
+leaf_1#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_1#
+leaf_1#
+DEBUG:netmiko:Pattern found: ([>#]) 
+leaf_1#
+DEBUG:netmiko:write_channel: b'configure terminal\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1#
+leaf_1#c
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: onfigure terminal
+
+DEBUG:netmiko:Pattern found: (configure\ terminal) 
+leaf_1#
+
+leaf_1#
+leaf_1#configure terminal
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Enter configurati
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: on commands, one p
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: er line.  End with
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  CNTL/Z.
+leaf_1(c
+DEBUG:netmiko:Pattern found: (_1.*) 
+
+Enter configuration commands, one per line.  End with CNTL/Z.
+leaf_1(c
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: onf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig)#
+leaf_1(confi
+DEBUG:netmiko:Pattern found: ([>#]) onfig)#
+DEBUG:netmiko:write_channel: b'hostname leaf_1\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: g)#
+leaf_1(co
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig)#
+leaf_1(con
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: fig)#hostname leaf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _1
+leaf_1(config)
+DEBUG:netmiko:Pattern found: (hostname\ leaf_1) 
+leaf_1(config)#
+leaf_1(config)#
+leaf_1(config)#hostname leaf_1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config)
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: () 
+DEBUG:netmiko:read_channel: #
+leaf_1(
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) #
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: () 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(
+DEBUG:netmiko:write_channel: b'interface Loopback0\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: c
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: onfig)#
+leaf_1(co
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig)#
+leaf_1(con
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: fig)#
+leaf_1(conf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig)#
+leaf_1(confi
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: g)#interface Loopb
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ack0
+leaf_1(confi
+DEBUG:netmiko:Pattern found: (interface\ Loopback0) config)#
+leaf_1(config)#
+leaf_1(config)#
+leaf_1(config)#
+leaf_1(config)#interface Loopback0
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(confi
+DEBUG:netmiko:write_channel: b' description Management Interface\r\n'
+DEBUG:netmiko:read_channel: g-i
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f)#
+leaf_1(conf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig-if)# descriptio
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: n Management Inter
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: face
+leaf_1(confi
+DEBUG:netmiko:Pattern found: (description\ Management\ Interface) g-if)#
+leaf_1(config-if)# description Management Interface
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(confi
+DEBUG:netmiko:write_channel: b' ip address 100.65.254.1 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: g-if)#
+le
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_1(config-if)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  ip address 100.65
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: .254.1 255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: .255
+leaf_1(confi
+DEBUG:netmiko:Pattern found: (ip\ address\ 100\.65\.254\.1\ 255\.255\.255\.255) g-if)#
+leaf_1(config-if)# ip address 100.65.254.1 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(confi
+DEBUG:netmiko:write_channel: b'interface Loopback1\r\n'
+DEBUG:netmiko:read_channel: g-if)#
+le
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_1(config-if)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: interface Loopback
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 1
+leaf_1(config-i
+DEBUG:netmiko:Pattern found: (interface\ Loopback1) g-if)#
+leaf_1(config-if)#interface Loopback1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-i
+DEBUG:netmiko:write_channel: b' description server_01\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f)#
+leaf_1(
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: config-if)# desc
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ription server_01
+
+DEBUG:netmiko:Pattern found: (description\ server_01) f)#
+leaf_1(config-if)# description server_01
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1(config-if)
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+
+leaf_1(config-if)
+DEBUG:netmiko:write_channel: b' ip address 100.96.1.1 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: #
+leaf_1(co
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig-if)# ip add
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ress 100.96.1.1 25
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 5.255.255.255
+lea
+DEBUG:netmiko:Pattern found: (ip\ address\ 100\.96\.1\.1\ 255\.255\.255\.255) #
+leaf_1(config-if)# ip address 100.96.1.1 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_1(config-if)#
+l
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-if)#
+DEBUG:netmiko:write_channel: b'interface Loopback2\r\n'
+DEBUG:netmiko:read_channel: eaf_1(conf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig-if)#interface L
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: oopback2
+leaf_1(c
+DEBUG:netmiko:Pattern found: (interface\ Loopback2) 
+leaf_1(config-if)#interface Loopback2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(c
+DEBUG:netmiko:write_channel: b' description server_02\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: onfig-if)#
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: leaf_1(config-if
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: )# description ser
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ver_02
+leaf_1(con
+DEBUG:netmiko:Pattern found: (description\ server_02) onfig-if)#
+leaf_1(config-if)# description server_02
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(con
+DEBUG:netmiko:write_channel: b' ip address 100.96.1.2 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: fig-if)#
+le
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_1(config-if)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  ip address 100.96
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: .1.2 255.255.255.2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 55
+leaf_1(config-
+DEBUG:netmiko:Pattern found: (ip\ address\ 100\.96\.1\.2\ 255\.255\.255\.255) fig-if)#
+leaf_1(config-if)# ip address 100.96.1.2 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-
+DEBUG:netmiko:write_channel: b'interface Loopback3\r\n'
+DEBUG:netmiko:read_channel: if)#
+leaf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _1(config-if)#in
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: terface Loopback3
+
+DEBUG:netmiko:Pattern found: (interface\ Loopback3) if)#
+leaf_1(config-if)#interface Loopback3
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1(config-if)
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+
+leaf_1(config-if)
+DEBUG:netmiko:write_channel: b' description server_03\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: #
+leaf_1(co
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig-if)# descri
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ption server_03
+l
+DEBUG:netmiko:Pattern found: (description\ server_03) #
+leaf_1(config-if)# description server_03
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_1(config-if)#
+
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-if)#
+DEBUG:netmiko:write_channel: b' ip address 100.96.1.3 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1(conf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig-if)# ip addre
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ss 100.96.1.3 255.
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 255.255.255
+leaf_
+DEBUG:netmiko:Pattern found: (ip\ address\ 100\.96\.1\.3\ 255\.255\.255\.255) 
+
+leaf_1(config-if)# ip address 100.96.1.3 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 1(config-if)#
+lea
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-if)#
+DEBUG:netmiko:write_channel: b'interface Loopback4\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_1(config
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: -if)#interface L
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: oopback4
+leaf_1(c
+DEBUG:netmiko:Pattern found: (interface\ Loopback4) 
+leaf_1(config-if)#interface Loopback4
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(c
+DEBUG:netmiko:write_channel: b' description server_04\r\n'
+DEBUG:netmiko:read_channel: onfig-if)#
+le
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_1(config-if)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  description serve
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: r_04
+leaf_1(confi
+DEBUG:netmiko:Pattern found: (description\ server_04) onfig-if)#
+leaf_1(config-if)# description server_04
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(confi
+DEBUG:netmiko:write_channel: b' ip address 100.96.1.4 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: g-if)#
+leaf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _1(config-if)# i
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: p address 100.96.1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: .4 255.255.255.255
+DEBUG:netmiko:Pattern found: (ip\ address\ 100\.96\.1\.4\ 255\.255\.255\.255) g-if)#
+leaf_1(config-if)# ip address 100.96.1.4 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1(config-if
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-if
+DEBUG:netmiko:write_channel: b'interface GigabitEthernet0/11\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: )#
+leaf_1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: (config-if)#inte
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: rface GigabitEther
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: net0/11
+leaf_1(co
+DEBUG:netmiko:Pattern found: (interface\ GigabitEthernet0/11) )#
+leaf_1(config-if)#interface GigabitEthernet0/11
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(co
+DEBUG:netmiko:write_channel: b' description Uplink Interface\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig-if)#
+l
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_1(config-if)
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: # description Upli
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nk Interface
+leaf
+DEBUG:netmiko:Pattern found: (description\ Uplink\ Interface) nfig-if)#
+leaf_1(config-if)# description Uplink Interface
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _1(config-if)#
+le
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-if)#
+DEBUG:netmiko:write_channel: b' ip address 198.18.0.1 255.255.255.254\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_1(confi
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: g-if)# ip addres
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: s 198.18.0.1 255.2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 55.255.254
+% Warn
+DEBUG:netmiko:Pattern found: (ip\ address\ 198\.18\.0\.1\ 255\.255\.255\.254) 
+leaf_1(config-if)# ip address 198.18.0.1 255.255.255.254
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ing: use /31 mask 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: on non point-to-po
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: int interface caut
+DEBUG:netmiko:read_channel: iously
+leaf_1(con
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+% Warning: use /31 mask on non point-to-point interface cautiously
+leaf_1(con
+DEBUG:netmiko:write_channel: b' no shutdown\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: fig-
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: if)#
+leaf_1(con
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: fig-if)# no shutdo
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: wn
+leaf_1(config-
+DEBUG:netmiko:Pattern found: (no\ shutdown) fig-if)#
+leaf_1(config-if)# no shutdown
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-
+DEBUG:netmiko:write_channel: b'interface GigabitEthernet0/10\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: if)#
+leaf_1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: (config-if)#inte
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: rface GigabitEther
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: net0/10
+leaf_1(co
+DEBUG:netmiko:Pattern found: (interface\ GigabitEthernet0/10) if)#
+leaf_1(config-if)#interface GigabitEthernet0/10
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(co
+DEBUG:netmiko:write_channel: b' description Uplink Interface\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig-if)#
+l
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_1(config-if)
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: # description Upli
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nk Interface
+leaf
+DEBUG:netmiko:Pattern found: (description\ Uplink\ Interface) nfig-if)#
+leaf_1(config-if)# description Uplink Interface
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _1(config-if)#
+le
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-if)#
+DEBUG:netmiko:write_channel: b' ip address 198.19.0.1 255.255.255.254\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_1(confi
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: g-if)# ip addres
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: s 198.19.0.1 255.2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 55.255.254
+% Warn
+DEBUG:netmiko:Pattern found: (ip\ address\ 198\.19\.0\.1\ 255\.255\.255\.254) 
+leaf_1(config-if)# ip address 198.19.0.1 255.255.255.254
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ing: use /31 mask 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: on non point-to-po
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: int interface caut
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: iously
+leaf_1(con
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+% Warning: use /31 mask on non point-to-point interface cautiously
+leaf_1(con
+DEBUG:netmiko:write_channel: b' no shutdown\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: fig-
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: if)#
+leaf_1(con
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: fig-if)# no shutdo
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: wn
+leaf_1(config-
+DEBUG:netmiko:Pattern found: (no\ shutdown) fig-if)#
+leaf_1(config-if)# no shutdown
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: () 
+DEBUG:netmiko:read_channel: if)#
+leaf_1
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) if)#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: () 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1
+DEBUG:netmiko:write_channel: b'router bgp 65001\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: (
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: config-if)#
+leaf_
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 1(config-if)#
+lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_1(config-if)#
+l
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_1(config-if)#
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1(config-if)
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: #router bgp 65001
+
+DEBUG:netmiko:Pattern found: (router\ bgp\ 65001) (config-if)#
+leaf_1(config-if)#
+leaf_1(config-if)#
+leaf_1(config-if)#
+
+leaf_1(config-if)#router bgp 65001
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1(config-rou
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+
+leaf_1(config-rou
+DEBUG:netmiko:write_channel: b'bgp router-id 100.65.254.1\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: t
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: er)#
+leaf_1(con
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: fig-router)#bgp ro
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: uter-id 100.65.254
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: .1
+leaf_1(config-
+DEBUG:netmiko:Pattern found: (bgp\ router\-id\ 100\.65\.254\.1) ter)#
+leaf_1(config-router)#bgp router-id 100.65.254.1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-
+DEBUG:netmiko:write_channel: b'maximum-paths 4\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: router)#
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: leaf_1(config-ro
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: uter)#maximum-path
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: s 4
+leaf_1(config
+DEBUG:netmiko:Pattern found: (maximum\-paths\ 4) router)#
+leaf_1(config-router)#maximum-paths 4
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config
+DEBUG:netmiko:write_channel: b'neighbor 198.18.0.0 remote-as 65000\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: -router)#
+l
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_1(config-rou
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ter)#neighbor 198.
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 18.0.0 remote-as 6
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 5000
+leaf_1(confi
+DEBUG:netmiko:Pattern found: (neighbor\ 198\.18\.0\.0\ remote\-as\ 65000) -router)#
+leaf_1(config-router)#neighbor 198.18.0.0 remote-as 65000
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(confi
+DEBUG:netmiko:write_channel: b'neighbor 198.19.0.0 remote-as 65000\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: g-router)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1(config-
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: router)#neighbor 1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 98.19.0.0 remote-a
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: s 65000
+leaf_1(co
+DEBUG:netmiko:Pattern found: (neighbor\ 198\.19\.0\.0\ remote\-as\ 65000) g-router)#
+leaf_1(config-router)#neighbor 198.19.0.0 remote-as 65000
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(co
+DEBUG:netmiko:write_channel: b'network 100.65.254.1 mask 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: nfig-route
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: r)#
+leaf_1(conf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig-router)#network
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  100.65.254.1 mask
+DEBUG:netmiko:read_channel:  255.255.255.255
+
+DEBUG:netmiko:Pattern found: (network\ 100\.65\.254\.1\ mask\ 255\.255\.255\.255) nfig-router)#
+leaf_1(config-router)#network 100.65.254.1 mask 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: leaf_1(config-rout
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(config-rout
+DEBUG:netmiko:write_channel: b'network 100.96.1.0 mask 255.255.255.0\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: er)#
+le
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_1(config-rout
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: er)#network 100.96
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: .1.0 mask 255.255.
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 255.0
+leaf_1(conf
+DEBUG:netmiko:Pattern found: (network\ 100\.96\.1\.0\ mask\ 255\.255\.255\.0) er)#
+leaf_1(config-router)#network 100.96.1.0 mask 255.255.255.0
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_1.*$|#.*$)) 
+leaf_1(conf
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig-router)
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: #
+leaf_1(config
+DEBUG:netmiko:Pattern found: ([>#]) ig-router)#
+DEBUG:netmiko:write_channel: b'end\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: -router)#
+leaf_
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 1(config-router)
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: #
+leaf_1(config-r
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: outer)#end
+leaf_1
+DEBUG:netmiko:Pattern found: (end) 
+leaf_1(config-router)#
+leaf_1(config-router)#
+leaf_1(config-router)#end
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: #
+leaf_1#
+DEBUG:netmiko:Pattern found: (#.*) 
+leaf_1#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ([>#]) 
+leaf_1#
+DEBUG:netmiko:exit_config_mode: 
+leaf_1(config-router)#
+leaf_1(config-router)#
+leaf_1(config-router)#end
+leaf_1#
+DEBUG:netmiko:
+leaf_1#
+
+leaf_1#
+leaf_1#configure terminal
+
+Enter configuration commands, one per line.  End with CNTL/Z.
+leaf_1(c
+leaf_1(config)#
+leaf_1(config)#
+leaf_1(config)#hostname leaf_1
+leaf_1(config)#
+leaf_1(config)#
+leaf_1(config)#
+leaf_1(config)#
+leaf_1(config)#
+leaf_1(config)#interface Loopback0
+leaf_1(config-if)#
+leaf_1(config-if)# description Management Interface
+leaf_1(config-if)#
+leaf_1(config-if)# ip address 100.65.254.1 255.255.255.255
+leaf_1(config-if)#
+leaf_1(config-if)#interface Loopback1
+leaf_1(config-if)#
+leaf_1(config-if)# description server_01
+
+leaf_1(config-if)#
+leaf_1(config-if)# ip address 100.96.1.1 255.255.255.255
+leaf_1(config-if)#
+leaf_1(config-if)#interface Loopback2
+leaf_1(config-if)#
+leaf_1(config-if)# description server_02
+leaf_1(config-if)#
+leaf_1(config-if)# ip address 100.96.1.2 255.255.255.255
+leaf_1(config-if)#
+leaf_1(config-if)#interface Loopback3
+
+leaf_1(config-if)#
+leaf_1(config-if)# description server_03
+leaf_1(config-if)#
+
+leaf_1(config-if)# ip address 100.96.1.3 255.255.255.255
+leaf_1(config-if)#
+leaf_1(config-if)#interface Loopback4
+leaf_1(config-if)#
+leaf_1(config-if)# description server_04
+leaf_1(config-if)#
+leaf_1(config-if)# ip address 100.96.1.4 255.255.255.255
+leaf_1(config-if)#
+leaf_1(config-if)#interface GigabitEthernet0/11
+leaf_1(config-if)#
+leaf_1(config-if)# description Uplink Interface
+leaf_1(config-if)#
+leaf_1(config-if)# ip address 198.18.0.1 255.255.255.254
+% Warning: use /31 mask on non point-to-point interface cautiously
+leaf_1(config-if)#
+leaf_1(config-if)# no shutdown
+leaf_1(config-if)#
+leaf_1(config-if)#interface GigabitEthernet0/10
+leaf_1(config-if)#
+leaf_1(config-if)# description Uplink Interface
+leaf_1(config-if)#
+leaf_1(config-if)# ip address 198.19.0.1 255.255.255.254
+% Warning: use /31 mask on non point-to-point interface cautiously
+leaf_1(config-if)#
+leaf_1(config-if)# no shutdown
+leaf_1(config-if)#
+leaf_1(config-if)#
+leaf_1(config-if)#
+leaf_1(config-if)#
+leaf_1(config-if)#
+
+leaf_1(config-if)#router bgp 65001
+
+leaf_1(config-router)#
+leaf_1(config-router)#bgp router-id 100.65.254.1
+leaf_1(config-router)#
+leaf_1(config-router)#maximum-paths 4
+leaf_1(config-router)#
+leaf_1(config-router)#neighbor 198.18.0.0 remote-as 65000
+leaf_1(config-router)#
+leaf_1(config-router)#neighbor 198.19.0.0 remote-as 65000
+leaf_1(config-router)#
+leaf_1(config-router)#network 100.65.254.1 mask 255.255.255.255
+leaf_1(config-router)#
+leaf_1(config-router)#network 100.96.1.0 mask 255.255.255.0
+leaf_1(conf
+leaf_1(config-router)#
+leaf_1(config-router)#
+leaf_1(config-router)#end
+leaf_1#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_1#
+leaf_1#
+leaf_1#
+leaf_1#
+DEBUG:netmiko:Pattern found: (_1.*) 
+
+leaf_1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_1#
+leaf_1#
+leaf_1#
+leaf_1#
+leaf_1#
+leaf_1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is leaf_1#
+DEBUG:netmiko:write_channel: b'write mem\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: w
+DEBUG:netmiko:read_channel: rite mem
+Building
+DEBUG:netmiko:Pattern found: (write\ mem) write mem
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  configuration...
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: [
+DEBUG:netmiko:read_channel: OK]
+leaf_1#
+leaf
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _1#
+DEBUG:netmiko:Pattern found: ([>#]) _1#
+DEBUG:netmiko:write_channel: b'exit\r\n'
+DEBUG:netmiko:read_channel: ]0;leaf_2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purpos
+DEBUG:netmiko:read_channel: es is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+leaf_2>
+leaf_2>
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:write_channel: b'terminal width 511\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_2>
+leaf_2>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: t
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: erminal width 511
+leaf_2>
+
+DEBUG:netmiko:Pattern found: (terminal width 511) 
+leaf_2>
+leaf_2>terminal width 511
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2>terminal len
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: gth 0
+leaf_2>
+leaf_2>
+DEBUG:netmiko:Pattern found: (terminal\ length\ 0) 
+leaf_2>
+leaf_2>terminal length 0
+DEBUG:netmiko:
+leaf_2>
+leaf_2>terminal length 0
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2>
+leaf_2>
+DEBUG:netmiko:Pattern found: ((?:\#|>)) 
+
+leaf_2>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is leaf_2>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_2>
+leaf_2>
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is leaf_2>
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: leaf_2>
+lea
+DEBUG:netmiko:Pattern found: ([>#]) leaf_2>
+DEBUG:netmiko:write_channel: b'exit\r\n'
+DEBUG:netmiko:read_channel: ]0;leaf_2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+******************************************************
+DEBUG:netmiko:read_channel: ********************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in part, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by  
+DEBUG:netmiko:read_channel:    *
+* Cisco in writing.                                                      *
+**************************************************************************
+leaf_2>
+leaf_2>
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:write_channel: b'terminal width 511\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_2>
+leaf_2>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: t
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: erminal width 511
+l
+DEBUG:netmiko:Pattern found: (terminal width 511) 
+leaf_2>
+leaf_2>terminal width 511
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_2>
+lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2>terminal len
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: gth 0
+leaf_2>
+le
+DEBUG:netmiko:Pattern found: (terminal\ length\ 0) 
+leaf_2>
+leaf_2>terminal length 0
+DEBUG:netmiko:
+leaf_2>
+leaf_2>terminal length 0
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_2>
+DEBUG:netmiko:Pattern found: ((?:\#|>)) af_2>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is af_2>
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2>
+leaf_2>
+le
+DEBUG:netmiko:Pattern found: (af_2.*) 
+
+leaf_2>
+DEBUG:netmiko:write_channel: b'enable\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_2>
+lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2>enable
+leaf
+DEBUG:netmiko:Pattern found: (enable) 
+leaf_2>
+leaf_2>
+leaf_2>enable
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _2#
+leaf_2#
+DEBUG:netmiko:Pattern found: ((?:af_2|ssword)) 
+leaf_2
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: (af_2.*) #
+leaf_2#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2#
+leaf_2#
+le
+DEBUG:netmiko:Pattern found: ([>#]) 
+
+leaf_2#
+DEBUG:netmiko:write_channel: b'configure terminal\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_2#
+lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2#configure te
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: rminal
+Enter configu
+DEBUG:netmiko:Pattern found: (configure\ terminal) 
+leaf_2#
+leaf_2#
+leaf_2#configure terminal
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ration commands, one
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  per line.  End wi
+DEBUG:netmiko:read_channel: th CNTL/Z.
+leaf_2(co
+DEBUG:netmiko:Pattern found: (af_2.*) 
+Enter configuration commands, one per line.  End with CNTL/Z.
+leaf_2(co
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: n
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: fig)#
+leaf_2(confi
+DEBUG:netmiko:Pattern found: ([>#]) nfig)#
+DEBUG:netmiko:write_channel: b'no ip domain-lookup\r\n'
+DEBUG:netmiko:read_channel: g)#
+leaf_2(config)#
+leaf_2(config)#no ip domain-lookup
+leaf_2(config
+DEBUG:netmiko:read_channel: )#
+leaf_2(config)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'no logging console\r\n'
+DEBUG:netmiko:read_channel: no logging console
+leaf_2(config)#
+leaf_2(con
+DEBUG:netmiko:read_channel: fig)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'hostname leaf_2\r\n'
+DEBUG:netmiko:read_channel: hostname leaf_2
+leaf_2(config)#
+leaf_
+DEBUG:netmiko:read_channel: 2(config)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2(config)#
+
+DEBUG:netmiko:Pattern found: ([>#]) 
+
+leaf_2(config)#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: leaf_2(config
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: )#
+leaf_2(confi
+DEBUG:netmiko:Pattern found: ([>#]) 
+leaf_2(config)#
+DEBUG:netmiko:write_channel: b'end\r\n'
+DEBUG:netmiko:read_channel: g)#
+leaf_2(conf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig)#end
+leaf_2#
+DEBUG:netmiko:Pattern found: (end) 
+leaf_2(config)#
+leaf_2(config)#end
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: (#.*) 
+leaf_2#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2#
+DEBUG:netmiko:Pattern found: ([>#]) 
+leaf_2#
+DEBUG:netmiko:exit_config_mode: 
+leaf_2(config)#
+leaf_2(config)#end
+leaf_2#
+DEBUG:netmiko:write_channel: b'exit\r\n'
+DEBUG:netmiko:read_channel: ]0;leaf_2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+**************************************************************************
+* IOSv is strictly limited to use for evaluation, demonstration and IOS  *
+* education. IOSv is provided as-is and is not supported by Cisco's      *
+* Technical Advisory Center. Any use or disclosure, in whole or in par
+DEBUG:netmiko:read_channel: t, *
+* of the IOSv Software or Documentation to any third party for any       *
+* purposes is expressly prohibited except as otherwise authorized by     *
+* Cisco in writing.                                                      *
+**************************************************************************
+leaf_2>
+leaf_2>
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:write_channel: b'terminal width 511\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_2>
+leaf_2>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: t
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: erminal width 511
+
+DEBUG:netmiko:Pattern found: (terminal width 511) 
+leaf_2>
+leaf_2>terminal width 511
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2>
+lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2>terminal len
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: gth 0
+leaf_2>
+leaf
+DEBUG:netmiko:Pattern found: (terminal\ length\ 0) 
+
+leaf_2>
+leaf_2>terminal length 0
+DEBUG:netmiko:
+
+leaf_2>
+leaf_2>terminal length 0
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _2>
+DEBUG:netmiko:Pattern found: ((?:\#|>)) _2>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is _2>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+leaf_2>
+leaf_2>
+leaf_2>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is leaf_2>
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2>
+leaf_2>
+leaf
+DEBUG:netmiko:Pattern found: (_2.*) 
+leaf_2>
+DEBUG:netmiko:write_channel: b'enable\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _2>
+leaf_
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 2>
+leaf_2>
+leaf_2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: >
+leaf_2>enable
+leaf_2#
+l
+DEBUG:netmiko:Pattern found: (enable) 
+leaf_2>
+leaf_2>
+leaf_2>
+leaf_2>
+leaf_2>
+leaf_2>enable
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2|ssword)) 
+leaf_2
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 2#
+leaf_2#
+lea
+DEBUG:netmiko:Pattern found: (_2.*) #
+leaf_2#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: f_2#
+DEBUG:netmiko:Pattern found: ([>#]) 
+leaf_2#
+DEBUG:netmiko:write_channel: b'configure terminal\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2#
+leaf_2#c
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: onfigure terminal
+
+DEBUG:netmiko:Pattern found: (configure\ terminal) 
+leaf_2#
+
+leaf_2#
+leaf_2#configure terminal
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Enter configuratio
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: n commands, one pe
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: r line.  End with 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: CNTL/Z.
+leaf_2(co
+DEBUG:netmiko:Pattern found: (_2.*) 
+
+Enter configuration commands, one per line.  End with CNTL/Z.
+leaf_2(co
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig)#
+leaf_2(con
+DEBUG:netmiko:Pattern found: ([>#]) nfig)#
+DEBUG:netmiko:write_channel: b'hostname leaf_2\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: fi
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: g)#
+leaf_2(config
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: )#
+leaf_2(config)
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: #hostname leaf_2
+
+DEBUG:netmiko:Pattern found: (hostname\ leaf_2) 
+leaf_2(config)#
+leaf_2(config)#
+leaf_2(config)#hostname leaf_2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: leaf_2(config)#
+l
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config)#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: eaf_2(
+DEBUG:netmiko:Pattern found: () 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: () 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: c
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: onfig)#
+leaf_2(co
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) config)#
+DEBUG:netmiko:write_channel: b'interface Loopback0\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig)#
+leaf_
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 2(config)#
+leaf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _2(config)#
+leaf_
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 2(config)#interface Lo
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: opback0
+leaf_2(co
+DEBUG:netmiko:Pattern found: (interface\ Loopback0) 
+leaf_2(config)#
+leaf_2(config)#
+leaf_2(config)#
+leaf_2(config)#interface Loopback0
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(co
+DEBUG:netmiko:write_channel: b' description Management Interface\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig-i
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f)#
+leaf_2(conf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig-if)# description 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: Management Interface
+
+DEBUG:netmiko:Pattern found: (description\ Management\ Interface) nfig-if)#
+leaf_2(config-if)# description Management Interface
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2(config-if)#
+
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b' ip address 100.65.254.2 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: le
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_2(config-if)# ip a
+DEBUG:netmiko:read_channel: ddress 100.65.254.2 2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 55.255.255.255
+leaf_2
+DEBUG:netmiko:Pattern found: (ip\ address\ 100\.65\.254\.2\ 255\.255\.255\.255) 
+leaf_2(config-if)# ip address 100.65.254.2 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2
+DEBUG:netmiko:write_channel: b'interface Loopback1\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: (
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: config-if)#
+leaf_2(co
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig-if)#interface
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  Loopback1
+leaf_2(c
+DEBUG:netmiko:Pattern found: (interface\ Loopback1) (config-if)#
+leaf_2(config-if)#interface Loopback1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(c
+DEBUG:netmiko:write_channel: b' description server_01\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: onf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig-if)#
+leaf_2(
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: config-if)# descri
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ption server_01
+l
+DEBUG:netmiko:Pattern found: (description\ server_01) onfig-if)#
+leaf_2(config-if)# description server_01
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_2(config-if)#
+
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b' ip address 100.96.2.1 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2(co
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig-if)# ip address 100
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: .96.2.1 255.255.255.2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 55
+leaf_2(config-i
+DEBUG:netmiko:Pattern found: (ip\ address\ 100\.96\.2\.1\ 255\.255\.255\.255) 
+
+leaf_2(config-if)# ip address 100.96.2.1 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-i
+DEBUG:netmiko:write_channel: b'interface Loopback2\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: )#
+leaf_2(config-if)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: interface Loopback2
+DEBUG:netmiko:Pattern found: (interface\ Loopback2) f)#
+leaf_2(config-if)#interface Loopback2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2(config-if)
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-if)
+DEBUG:netmiko:write_channel: b' description server_02\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: #
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: leaf_2(config-if
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: )# description server
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _02
+leaf_2(config-
+DEBUG:netmiko:Pattern found: (description\ server_02) #
+leaf_2(config-if)# description server_02
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-
+DEBUG:netmiko:write_channel: b' ip address 100.96.2.2 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: if)#
+le
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_2(config-if)#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  ip address 100.96.2.2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  255.255.255.255
+l
+DEBUG:netmiko:Pattern found: (ip\ address\ 100\.96\.2\.2\ 255\.255\.255\.255) if)#
+leaf_2(config-if)# ip address 100.96.2.2 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_2(config-if)#
+le
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b'interface Loopback3\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _2(config-if)#in
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: terface Loopback3
+
+DEBUG:netmiko:Pattern found: (interface\ Loopback3) 
+leaf_2(config-if)#interface Loopback3
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2(config-if)#
+leaf_2(config-if)#
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b' description server_03\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: description server_0
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 3
+leaf_2(config-if)#
+leaf_2(config-if)#
+DEBUG:netmiko:Pattern found: (description\ server_03) 
+leaf_2(config-if)# description server_03
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b' ip address 100.96.2.3 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ip address 100.96.2.3 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 255.255.255.255
+lea
+DEBUG:netmiko:Pattern found: (ip\ address\ 100\.96\.2\.3\ 255\.255\.255\.255) 
+leaf_2(config-if)# ip address 100.96.2.3 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2(config-if)#
+le
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b'interface Loopback4\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _2(config-if)#in
+DEBUG:netmiko:read_channel: terface Loopback4
+
+DEBUG:netmiko:Pattern found: (interface\ Loopback4) 
+leaf_2(config-if)#interface Loopback4
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2(config-if)
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+
+leaf_2(config-if)
+DEBUG:netmiko:write_channel: b' description server_04\r\n'
+DEBUG:netmiko:read_channel: #
+leaf_2(co
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig-if)# descri
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ption server_04
+leaf
+DEBUG:netmiko:Pattern found: (description\ server_04) #
+leaf_2(config-if)# description server_04
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _2(config-if)#
+leaf_
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b' ip address 100.96.2.4 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: 2(conf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig-if)# ip addre
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ss 100.96.2.4 255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: .255.255
+leaf_2(conf
+DEBUG:netmiko:Pattern found: (ip\ address\ 100\.96\.2\.4\ 255\.255\.255\.255) 
+leaf_2(config-if)# ip address 100.96.2.4 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(conf
+DEBUG:netmiko:write_channel: b'interface GigabitEthernet0/11\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig-if)
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: #
+leaf_2(config
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: -if)#interface Gig
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: abitEthernet0/11
+
+DEBUG:netmiko:Pattern found: (interface\ GigabitEthernet0/11) ig-if)#
+leaf_2(config-if)#interface GigabitEthernet0/11
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: leaf_2(config-if)#
+leaf_
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b' description Uplink Interface\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 2(c
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: onfig-if)# descr
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: iption Uplink Interfa
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ce
+leaf_2(config-if)#
+
+DEBUG:netmiko:Pattern found: (description\ Uplink\ Interface) 
+leaf_2(config-if)# description Uplink Interface
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b' ip address 198.18.0.3 255.255.255.254\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2(config-if)# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ip address 198.18.
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 0.3 255.255.255.25
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 4
+% Warning: use 
+DEBUG:netmiko:Pattern found: (ip\ address\ 198\.18\.0\.3\ 255\.255\.255\.254) 
+leaf_2(config-if)# ip address 198.18.0.3 255.255.255.254
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: /31 mask on non po
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: int-to-point interface c
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: autiously
+leaf_
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 2(config-if)#
+leaf_2(config
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+% Warning: use /31 mask on non point-to-point interface cautiously
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b' no shutdown\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: -if)
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: # no shutdown
+l
+DEBUG:netmiko:Pattern found: (no\ shutdown) 
+leaf_2(config-if)# no shutdown
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_2(config-if)#
+lea
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b'interface GigabitEthernet0/10\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2(config
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: -if)#interface G
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: igabitEthernet0/10
+lea
+DEBUG:netmiko:Pattern found: (interface\ GigabitEthernet0/10) 
+leaf_2(config-if)#interface GigabitEthernet0/10
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2(config-if)#
+lea
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b' description Uplink Interface\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2(c
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: onfig-if)# descr
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: iption Uplink Inte
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: rface
+leaf_2(conf
+DEBUG:netmiko:Pattern found: (description\ Uplink\ Interface) 
+leaf_2(config-if)# description Uplink Interface
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(conf
+DEBUG:netmiko:write_channel: b' ip address 198.19.0.3 255.255.255.254\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ig-if)#
+lea
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2(config-if)# 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ip address 198.19.0.3
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  255.255.255.254
+% 
+DEBUG:netmiko:Pattern found: (ip\ address\ 198\.19\.0\.3\ 255\.255\.255\.254) ig-if)#
+leaf_2(config-if)# ip address 198.19.0.3 255.255.255.254
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: Warning: use /31 mas
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: k on non point-to-p
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: oint interface cautio
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: usly
+leaf_2(config-
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+% Warning: use /31 mask on non point-to-point interface cautiously
+leaf_2(config-
+DEBUG:netmiko:write_channel: b' no shutdown\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: if)#
+l
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_2(config-if)
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: # no shutdown
+leaf
+DEBUG:netmiko:Pattern found: (no\ shutdown) if)#
+leaf_2(config-if)# no shutdown
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _2(config-if)#
+leaf
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-if)#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: () 
+DEBUG:netmiko:read_channel: _2(config
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: () 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: -
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: if)#
+leaf_2(config
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) -if)#
+DEBUG:netmiko:write_channel: b'router bgp 65002\r\n'
+DEBUG:netmiko:read_channel: -if)#
+leaf_
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 2(config-if)#
+l
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_2(config-if)#
+le
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_2(config-if)#ro
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: uter bgp 65002
+le
+DEBUG:netmiko:Pattern found: (router\ bgp\ 65002) 
+leaf_2(config-if)#
+leaf_2(config-if)#
+leaf_2(config-if)#
+leaf_2(config-if)#router bgp 65002
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_2(config-router
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-router
+DEBUG:netmiko:write_channel: b'bgp router-id 100.65.254.2\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: )#
+l
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: eaf_2(config-rou
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ter)#bgp router-id
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel:  100.65.254.2
+lea
+DEBUG:netmiko:Pattern found: (bgp\ router\-id\ 100\.65\.254\.2) )#
+leaf_2(config-router)#bgp router-id 100.65.254.2
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: f_2(config-router)
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-router)
+DEBUG:netmiko:write_channel: b'maximum-paths 4\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: #
+leaf_2(
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: config-router)#m
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: aximum-paths 4
+leaf_2(
+DEBUG:netmiko:Pattern found: (maximum\-paths\ 4) #
+leaf_2(config-router)#maximum-paths 4
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(
+DEBUG:netmiko:write_channel: b'neighbor 198.18.0.2 remote-as 65000\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: config-ro
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: uter)#
+leaf_2(con
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: fig-router)#neighb
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: or 198.18.0.2 remo
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: te-as 65000
+leaf_
+DEBUG:netmiko:Pattern found: (neighbor\ 198\.18\.0\.2\ remote\-as\ 65000) config-router)#
+leaf_2(config-router)#neighbor 198.18.0.2 remote-as 65000
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 2(config-router)#
+
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-router)#
+DEBUG:netmiko:write_channel: b'neighbor 198.19.0.2 remote-as 65000\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 2(config-router)
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: #neighbor 198.19.0.2 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: remote-as 65000
+leaf
+DEBUG:netmiko:Pattern found: (neighbor\ 198\.19\.0\.2\ remote\-as\ 65000) 
+
+leaf_2(config-router)#neighbor 198.19.0.2 remote-as 65000
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _2(config-router)#
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(config-router)#
+DEBUG:netmiko:write_channel: b'network 100.65.254.2 mask 255.255.255.255\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+le
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: af_2(config-rout
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: er)#network 100.65
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: .254.2 mask 255.25
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 5.255.255
+leaf_2(
+DEBUG:netmiko:Pattern found: (network\ 100\.65\.254\.2\ mask\ 255\.255\.255\.255) 
+leaf_2(config-router)#network 100.65.254.2 mask 255.255.255.255
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(
+DEBUG:netmiko:write_channel: b'network 100.96.2.0 mask 255.255.255.0\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: config-rou
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: ter)#
+leaf_2(co
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfig-router)#network 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 100.96.2.0 mask 255.25
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 5.255.0
+leaf_2(co
+DEBUG:netmiko:Pattern found: (network\ 100\.96\.2\.0\ mask\ 255\.255\.255\.0) config-router)#
+leaf_2(config-router)#network 100.96.2.0 mask 255.255.255.0
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: ((?:_2.*$|#.*$)) 
+leaf_2(co
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: nfi
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: g-router)#
+leaf
+DEBUG:netmiko:Pattern found: ([>#]) nfig-router)#
+DEBUG:netmiko:write_channel: b'end\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _2(
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: config-router)#
+leaf
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: _2(config-router)#
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: leaf_2(config-router
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: )#end
+leaf_2#
+leaf_
+DEBUG:netmiko:Pattern found: (end) 
+leaf_2(config-router)#
+leaf_2(config-router)#
+leaf_2(config-router)#end
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Pattern found: (#.*) 
+leaf_2#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 2#
+DEBUG:netmiko:Pattern found: ([>#]) 
+leaf_2#
+DEBUG:netmiko:exit_config_mode: 
+leaf_2(config-router)#
+leaf_2(config-router)#
+leaf_2(config-router)#end
+leaf_2#
+DEBUG:netmiko:
+leaf_2#
+
+leaf_2#
+leaf_2#configure terminal
+
+Enter configuration commands, one per line.  End with CNTL/Z.
+leaf_2(co
+leaf_2(config)#
+leaf_2(config)#
+leaf_2(config)#hostname leaf_2
+leaf_2(config)#
+leaf_2(config)#
+leaf_2(config)#
+leaf_2(config)#
+leaf_2(config)#
+leaf_2(config)#interface Loopback0
+leaf_2(config-if)#
+leaf_2(config-if)# description Management Interface
+
+leaf_2(config-if)#
+leaf_2(config-if)# ip address 100.65.254.2 255.255.255.255
+leaf_2(config-if)#
+leaf_2(config-if)#interface Loopback1
+leaf_2(config-if)#
+leaf_2(config-if)# description server_01
+leaf_2(config-if)#
+
+leaf_2(config-if)# ip address 100.96.2.1 255.255.255.255
+leaf_2(config-if)#
+leaf_2(config-if)#interface Loopback2
+leaf_2(config-if)#
+leaf_2(config-if)# description server_02
+leaf_2(config-if)#
+leaf_2(config-if)# ip address 100.96.2.2 255.255.255.255
+leaf_2(config-if)#
+leaf_2(config-if)#interface Loopback3
+
+leaf_2(config-if)#
+leaf_2(config-if)# description server_03
+leaf_2(config-if)#
+leaf_2(config-if)# ip address 100.96.2.3 255.255.255.255
+leaf_2(config-if)#
+leaf_2(config-if)#interface Loopback4
+
+leaf_2(config-if)#
+leaf_2(config-if)# description server_04
+leaf_2(config-if)#
+leaf_2(config-if)# ip address 100.96.2.4 255.255.255.255
+leaf_2(config-if)#
+leaf_2(config-if)#interface GigabitEthernet0/11
+leaf_2(config-if)#
+leaf_2(config-if)# description Uplink Interface
+leaf_2(config-if)#
+leaf_2(config-if)# ip address 198.18.0.3 255.255.255.254
+% Warning: use /31 mask on non point-to-point interface cautiously
+leaf_2(config-if)#
+leaf_2(config-if)# no shutdown
+leaf_2(config-if)#
+leaf_2(config-if)#interface GigabitEthernet0/10
+leaf_2(config-if)#
+leaf_2(config-if)# description Uplink Interface
+leaf_2(config-if)#
+leaf_2(config-if)# ip address 198.19.0.3 255.255.255.254
+% Warning: use /31 mask on non point-to-point interface cautiously
+leaf_2(config-if)#
+leaf_2(config-if)# no shutdown
+leaf_2(config-if)#
+leaf_2(config-if)#
+leaf_2(config-if)#
+leaf_2(config-if)#
+leaf_2(config-if)#
+leaf_2(config-if)#router bgp 65002
+leaf_2(config-router)#
+leaf_2(config-router)#bgp router-id 100.65.254.2
+leaf_2(config-router)#
+leaf_2(config-router)#maximum-paths 4
+leaf_2(config-router)#
+leaf_2(config-router)#neighbor 198.18.0.2 remote-as 65000
+leaf_2(config-router)#
+
+leaf_2(config-router)#neighbor 198.19.0.2 remote-as 65000
+leaf_2(config-router)#
+leaf_2(config-router)#network 100.65.254.2 mask 255.255.255.255
+leaf_2(config-router)#
+leaf_2(config-router)#network 100.96.2.0 mask 255.255.255.0
+leaf_2(co
+leaf_2(config-router)#
+leaf_2(config-router)#
+leaf_2(config-router)#end
+leaf_2#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2#
+leaf_2#
+leaf_
+DEBUG:netmiko:Pattern found: (_2.*) 
+
+leaf_2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:Clear buffer detects data in the channel
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 2#
+leaf_2#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is leaf_2#
+DEBUG:netmiko:write_channel: b'write mem\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2#
+leaf_2#w
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: rite mem
+Building
+DEBUG:netmiko:Pattern found: (write\ mem) 
+
+leaf_2#
+leaf_2#write mem
+DEBUG:netmiko:read_channel:  configuration...
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: [
+DEBUG:netmiko:read_channel: OK]
+leaf_2#
+leaf_2#
+DEBUG:netmiko:write_channel: b'\r\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+leaf_2#
+leaf_2#
+DEBUG:netmiko:Pattern found: ([>#]) 
+
+leaf_2#
+DEBUG:netmiko:write_channel: b'exit\r\n'

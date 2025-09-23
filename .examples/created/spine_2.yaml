@@ -4,7 +4,6 @@ device:
   port: 32770
   username: admin
   password: admin
-  secret: Timao@1910
   verbose: True
   session_log: spine_2.txt
 

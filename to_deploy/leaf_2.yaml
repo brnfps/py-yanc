@@ -1,61 +1,59 @@
 device:
   device_type: cisco_ios_telnet
   host: 192.168.0.33
-  port: 32771
+  port: 32772
   username: admin
   password: admin
-  secret: Timao@1910
   verbose: True
-  session_log: leaf_1.txt
 
-hostname: leaf_1
+hostname: leaf_2
 
 interfaces:
   - interface: Loopback0
     description: Management Interface
-    ip_addr: 100.65.254.1
+    ip_addr: 100.65.254.2
     netmask: 255.255.255.255
   - interface: Loopback1
     description: server_01
-    ip_addr: 100.96.1.1
+    ip_addr: 100.96.2.1
     netmask: 255.255.255.255
   - interface: Loopback2
     description: server_02
-    ip_addr: 100.96.1.2
+    ip_addr: 100.96.2.2
     netmask: 255.255.255.255
   - interface: Loopback3
     description: server_03
-    ip_addr: 100.96.1.3
+    ip_addr: 100.96.2.3
     netmask: 255.255.255.255
   - interface: Loopback4
     description: server_04
-    ip_addr: 100.96.1.4
+    ip_addr: 100.96.2.4
     netmask: 255.255.255.255
   - interface: GigabitEthernet0/11
     description: Uplink Interface
-    ip_addr: 198.18.0.1
+    ip_addr: 198.18.0.3
     netmask: 255.255.255.254
     shut: false
   - interface: GigabitEthernet0/10
     description: Uplink Interface
-    ip_addr: 198.19.0.1
+    ip_addr: 198.19.0.3
     netmask: 255.255.255.254
     shut: false
 
 routing:
   bgp:
-    asn: 65001
-    router_id: 100.65.254.1
+    asn: 65002
+    router_id: 100.65.254.2
     ecmp: 4
     networks:
-      - network: 100.65.254.1
+      - network: 100.65.254.2
         mask: 255.255.255.255
-      - network: 100.96.1.0
+      - network: 100.96.2.0
         mask: 255.255.255.0
     neighbors:
-      - ip: 198.18.0.0
+      - ip: 198.18.0.2
         remote_as: 65000
-        description: spine_1-1
-      - ip: 198.19.0.0
+        description: spine_1
+      - ip: 198.19.0.2
         remote_as: 65000
-        description: spine_2-1
+        description: spine_2

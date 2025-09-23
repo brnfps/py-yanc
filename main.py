@@ -5,7 +5,7 @@ from connector import conn_config, conn_timed_config, conn_get_prompt
 from config import gen_config
 
 
-VERSION = "0.0.1-alpha-1_MVP"
+VERSION = "0.0.1-alpha-2"
 
 
 def generate_config(yaml_file): 
@@ -60,22 +60,30 @@ def main():
     - Send config from file
     """
 
-    zeroizing = False
+    zeroizing = False  # Set to True if you want to zeroize the device before configuration
 
     to_deploy = os.listdir("to_deploy")
 
     for each in to_deploy:
         device_yaml_file = os.path.join("to_deploy", each)
         print(f"1. Deploying {each.split('.')[0]}")
-        yaml_dict = generate_config(device_yaml_file)
+        yaml_dict, rendered_config = generate_config(device_yaml_file)
+
+        os.makedirs(f"deployed/{ yaml_dict['hostname'] }", exist_ok=True)
+        main_folder = f"deployed/{ yaml_dict['hostname'] }/"
+        with open(f"{ main_folder }{ yaml_dict['hostname'] }.cfg", 'w') as file:
+            file.write(rendered_config)
 
         try:
             if yaml_dict['device']:
                 print(f"2. Configuration generated for {yaml_dict['hostname']}")
-                print(f"   And file saved to created/{yaml_dict['hostname']}.cfg")
+                print(f"   And file saved to { main_folder }{yaml_dict['hostname']}.cfg")
         except KeyError:
             print("ERROR: No device connection info found in the YAML file.")
             break
+        
+        # Adding session_log path to yaml_dict to create session log file in correct folder
+        yaml_dict['device']['session_log'] = f"{ main_folder }{ yaml_dict['hostname'] }-netmiko_output.txt"
         
         if zeroizing is True:
             print("Zeroizing device")
@@ -95,7 +103,7 @@ def main():
 
         time.sleep(5)
         print("3.3 Sending configuration file")
-        send_config(yaml_dict, f"created/{yaml_dict['hostname']}.cfg")
+        send_config(yaml_dict, f"{ main_folder }{yaml_dict['hostname']}.cfg")
         print("3.3 DONE")
         print("4. Configuration DONE")
         print("-" * 40)

@@ -4,7 +4,7 @@ from netmiko import ConnectHandler, NetmikoTimeoutException, NetmikoAuthenticati
 
 
 
-logging.basicConfig(filename='test-delay.log', level=logging.DEBUG)
+logging.basicConfig(filename=f'logs/netmiko/{time.time()}.log', level=logging.DEBUG)
 logger = logging.getLogger("netmiko")
 
 

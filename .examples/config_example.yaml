@@ -1,4 +1,13 @@
-hostname: test_host
+device:
+  device_type: cisco_ios_telnet
+  host: 192.168.0.33
+  port: 32771
+  username: admin
+  password: admin
+  verbose: True
+  session_log: hostname.txt
+
+hostname: hostname
 
 interfaces:
   - name: Loopback0
@@ -15,11 +24,7 @@ interfaces:
 
 
 routing:
-  - protocol: ospf
-    process_id: 1
-    networks:
-      - network:
-  - protocol: bgp
+  bgp:
     asn: 65001
     router_id: 1.1.1.1
     ecmp: 4
@@ -31,10 +36,4 @@ routing:
     neighbors:
       - ip: 2.2.2.2
         remote_as: 65002
-        description: Peer to ISP
-        group: external
-  - protocol: static
-    routes:
-      - destination_ip: 2.2.2.2
-        destination_mask: 255.255.255.255
-        next_hop: 100.64.128.1
+        description: spine_1
