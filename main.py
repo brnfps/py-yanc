@@ -3,9 +3,11 @@ import time
 
 from connector import conn_config, conn_timed_config, conn_get_prompt
 from config import gen_config
+from deployment.deployment import deployment
 
 
-VERSION = "0.0.1-alpha-2"
+
+VERSION = "0.0.2-alpha-1"
 
 
 def generate_config(yaml_file): 
@@ -13,32 +15,13 @@ def generate_config(yaml_file):
     return yaml_dict
 
 
-def zeroize(device):
-    commands = [
-        'erase startup-config',
-        'reload',
-        'y'
-    ]
-    conn_timed_config(device['device'], commands, None, 300)
-
-
-def test_connection(device):  
-    conn_get_prompt(device, 20)
-
-
-def disable_terminal_logging(device):
-    hostname = device['hostname']
-
-    commands = [
-        'no ip domain-lookup',
-        'no logging console',
-        f'hostname { hostname }'
-    ]
-
-    conn_timed_config(device['device'], commands, True, 3)
-
-def send_config(device, config_file):
-    conn_config(device['device'], config_file)
+# def zeroize(device):
+#     commands = [
+#         'erase startup-config',
+#         'reload',
+#         'y'
+#     ]
+#     conn_timed_config(device['device'], commands, None, 300)
 
 
 def main():
@@ -59,55 +42,15 @@ def main():
     - Set the hostname to avoid prompt issues while running send_config_from_file
     - Send config from file
     """
+    deployment()
 
-    zeroizing = False  # Set to True if you want to zeroize the device before configuration
-
-    to_deploy = os.listdir("to_deploy")
-
-    for each in to_deploy:
-        device_yaml_file = os.path.join("to_deploy", each)
-        print(f"1. Deploying {each.split('.')[0]}")
-        yaml_dict, rendered_config = generate_config(device_yaml_file)
-
-        os.makedirs(f"deployed/{ yaml_dict['hostname'] }", exist_ok=True)
-        main_folder = f"deployed/{ yaml_dict['hostname'] }/"
-        with open(f"{ main_folder }{ yaml_dict['hostname'] }.cfg", 'w') as file:
-            file.write(rendered_config)
-
-        try:
-            if yaml_dict['device']:
-                print(f"2. Configuration generated for {yaml_dict['hostname']}")
-                print(f"   And file saved to { main_folder }{yaml_dict['hostname']}.cfg")
-        except KeyError:
-            print("ERROR: No device connection info found in the YAML file.")
-            break
+    # zeroizing = False  # Set to True if you want to zeroize the device before configuration
         
-        # Adding session_log path to yaml_dict to create session log file in correct folder
-        yaml_dict['device']['session_log'] = f"{ main_folder }{ yaml_dict['hostname'] }-netmiko_output.txt"
-        
-        if zeroizing is True:
-            print("Zeroizing device")
-            zeroize(yaml_dict)
-            print("Device reseted to factory default")
-            time.sleep(30)
-
-        print(f"3. Connecting and configuring {yaml_dict['hostname']}")
-        print(f"3.1 Testing connection")
-        test_connection(yaml_dict['device'])
-        print(f"3.1 DONE")
-        time.sleep(3)
-
-        print("3.2 Disabling terminal login and setting hostname")
-        disable_terminal_logging(yaml_dict)
-        print(f"3.2 DONE")
-
-        time.sleep(5)
-        print("3.3 Sending configuration file")
-        send_config(yaml_dict, f"{ main_folder }{yaml_dict['hostname']}.cfg")
-        print("3.3 DONE")
-        print("4. Configuration DONE")
-        print("-" * 40)
-        time.sleep(10)
+    #     if zeroizing is True:
+    #         print("Zeroizing device")
+    #         zeroize(yaml_dict)
+    #         print("Device reseted to factory default")
+    #         time.sleep(30)
 
 
 if __name__ == '__main__':
