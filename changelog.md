@@ -18,6 +18,23 @@ All notable changes to this project will be documented in this file.
 - Fixed minor bugs in task scheduling.
 -->
 
+## [0.0.2-alpha-1] - 2025-09-23
+
+### Changed
+- main.py now just initiates deployment() function. All other actions were removed/moved to other files.
+- connector.py now have support for logging and, if try fails, it raises an exception.
+- "deployment" folder is now resposible to store both "to_deploy" and "deployed".
+
+### Added
+- Created folder "core" to store basic code files.
+- Created support for logging in every step of the deployment. Now, each device will have their own folder/files inside folder "deployment/deployed/< hostname >
+- Created deployment.py that will handle functions related to depoloyment and re-configurations.
+
+
+### Removed
+- Almost every print from code since information will be handled by logging.
+- Removed old log files from folder "log/netmiko". Folder was left in the code for future usage. 
+
 ## [0.0.1-alpha-2] - 2025-09-23
 
 ### Changed
