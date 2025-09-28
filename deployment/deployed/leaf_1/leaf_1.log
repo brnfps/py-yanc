@@ -1,0 +1,19 @@
+2025-09-28 08:33:12 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Starting deployment of leaf_1
+2025-09-28 08:33:12 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Generating configuration file for leaf_1
+2025-09-28 08:33:12 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Configuration file saved to deployment/deployed/leaf_1/leaf_1.cfg
+2025-09-28 08:33:12 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Testing connection to leaf_1
+2025-09-28 08:33:12 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Testing connection... 1
+2025-09-28 08:33:53 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Connection successful!
+2025-09-28 08:33:53 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Connection test DONE
+2025-09-28 08:33:58 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Disabling terminal logging and setting hostname for leaf_1
+2025-09-28 08:33:58 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Connecting to device. Trying: 1
+2025-09-28 08:34:04 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Connection successful! Starting configuration...
+2025-09-28 08:34:11 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Configuration sent
+2025-09-28 08:34:11 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Terminal logging disabled and hostname set to leaf_1
+2025-09-28 08:34:16 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Sending configuration file to leaf_1
+2025-09-28 08:34:16 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Connecting to device to send configuration. Trying: 1
+2025-09-28 08:34:24 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Connection successful! Ssending configuration...
+2025-09-28 08:34:30 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Configuration sent and saved
+2025-09-28 08:34:30 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Device leaf_1 configured successfully
+2025-09-28 08:34:35 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Deployment of leaf_1 completed successfully
+2025-09-28 08:34:35 +0100 - core.logger:deployment:deployment/deployed/leaf_1/leaf_1 - INFO - Deployment finished!
